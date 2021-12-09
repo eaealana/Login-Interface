@@ -2,94 +2,58 @@
     box-sizing: border-box;
     margin: 0; 
     padding: 0;
-    text-decoration: none;
-    font-family: 'Roboto';
-    height: auto;
-}
-
-#h1 {
-    position: absolute;
-    left: 4.27%;
-    right: 73.87%;
-    top: 200px;
-    bottom: 65.25%;
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px; 
-    line-height: 41px;
-
-    letter-spacing: 0.41px;
-
-    color: #000000;
-}
-
-#p {
-    position: absolute;
-    left: 4.27%;
-    right: 4.27%;
-    top: 250px;
-    bottom: 11.02%;
-      
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-
-    letter-spacing: 0.41px;
-
+    text-decoration: none; 
     color: rgba(0, 0, 0, 0.5);
 }
 
-#username {
-    position: absolute;
+h1 {
+    margin: 180px 10px 50px 10px;
+
+    line-height: 41px;
+    font: 500 32px 'Roboto', sans-serif;
+
+    letter-spacing: 0.41px;
+    color: #000000;
+}
+
+p {
+    margin: 20px 10px 15px 12px;
+
+    line-height: 26px;
+    font: 500 19px 'Roboto', sans-serif;
+
+    letter-spacing: 0.41px;
+}
+
+input {
     width: 343px;
     height: 48px;
-    left: 10px;
-    top: 380px;
+
+    margin: 5px 0 5px 10px;
 
     background: #F2F2F7;
+    border-color: #F2F2F7;
+    color: #000000;
     border-radius: 6px;
 
     font-size: 20px;
 }
 
-#password {
-    position: absolute;
-    width: 343px;
-    height: 48px;
-    left: 10px;
-    top: 450px;
-
-    background:#F2F2F7;
-    border-radius: 5px;
-
-    font-size: 20px;
-}
-
 #new-password {
-    position: absolute;
-    right: 110px;
-    top: 510px;
-    bottom: 31.63%;
+    margin:  10px 0 0 250px;
+    display: inline-block;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font: 500 16px 'Roboto', sans-serif;
     line-height: 22px;
-
     letter-spacing: -0.41px;
 
-    color: #007AFF;
+    color: #0000FF;
 }
 
-#button {
-    position: absolute;
+button {
+    margin: 25px 0 0 10px;
     width: 343px;
     height: 50px;
-    top: 550px;
-    left: 10px;
 
     border-radius: 5px;
     background: black;
@@ -97,21 +61,12 @@
 }
 
 #account {
-    position: absolute;
-width: 225px;
-height: 19px;
-left: 75px;
-top: 690px;
+    line-height: 19px;
+    font: 500 16px 'Roboto', sans-serif;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-
-color: rgba(0, 0, 0, 0.51)
+    color: rgba(0, 0, 0, 0.51)
 }
 
-#a {
-    color: #007AFF;
+.sing-up {
+    color: #0000FF;
 }
