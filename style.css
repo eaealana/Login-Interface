@@ -3,70 +3,80 @@
     margin: 0; 
     padding: 0;
     text-decoration: none; 
-    color: rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-    margin: 180px 10px 50px 10px;
-
-    line-height: 41px;
-    font: 500 32px 'Roboto', sans-serif;
-
-    letter-spacing: 0.41px;
-    color: #000000;
+.container{
+    margin: 3rem 3rem;
 }
 
-p {
-    margin: 20px 10px 15px 12px;
+.container h1 {
+    font: 600 2.2rem 'Roboto', sans-serif;
+    margin-bottom: 3.5rem;
+}
 
-    line-height: 26px;
-    font: 500 19px 'Roboto', sans-serif;
-
-    letter-spacing: 0.41px;
+.container .text {
+    font: 500 1rem 'Roboto', sans-serif;
+    color: #2e2c2c;
+    width: 18rem;
+    margin: 2rem 0;
 }
 
 input {
-    width: 343px;
-    height: 48px;
+    display: flex;
+    padding: 0.5rem 1rem;
+    width: 17rem;
 
-    margin: 5px 0 5px 10px;
-
-    background: #F2F2F7;
-    border-color: #F2F2F7;
-    color: #000000;
-    border-radius: 6px;
-
-    font-size: 20px;
+    border-radius: 7px;
+    border-color: #00000069;
+    margin-bottom: 10px;
 }
 
-#new-password {
-    margin:  10px 0 0 250px;
-    display: inline-block;
+.new-password {
+    display: flex;
+    margin-left: 10rem;
+    padding: 1rem 0;
 
-    font: 500 16px 'Roboto', sans-serif;
-    line-height: 22px;
-    letter-spacing: -0.41px;
-
-    color: #0000FF;
+    color: #0d0dbd;
+    font: 500 14px 'Poppins', sans-serif;
+    letter-spacing: 1px;
 }
 
 button {
-    margin: 25px 0 0 10px;
-    width: 343px;
-    height: 50px;
+    display: flex;
+    margin: 1rem 0.4rem;
+    padding: 0.5rem 7rem;
 
+    font: 500 14px 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    background: #000000;
+    color: #FFFFFF;
     border-radius: 5px;
-    background: black;
-    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
-#account {
-    line-height: 19px;
-    font: 500 16px 'Roboto', sans-serif;
+button:hover {
+    background: #F9F9F9;
+    color: #000000;
+    border: 1px solid #000000;
+}
 
-    color: rgba(0, 0, 0, 0.51)
+p {
+    font: 600 1.4rem 'Poppins', sans-serif;
+    margin: 3rem 8rem;
+}
+
+.redes-sociais {
+    margin: 2rem 3.4rem;
+}
+
+img {
+    width: 55px;
+    padding: 5px 6px;
 }
 
 .sing-up {
-    color: #0000FF;
+    font-size: 1rem;
+    margin: 1rem 2.5rem;
 }
