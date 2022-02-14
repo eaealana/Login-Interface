@@ -44,7 +44,7 @@ main input {
 }
 
 .new-password {
-    font: 500 1rem 'DM-Sans', sans-serif; 
+    font: 500 1rem 'Poppins', sans-serif; 
 
     padding: 3rem;
     margin-left: 12rem;
@@ -104,5 +104,12 @@ p {
         align-items: center;
         margin: 0;
         padding: 0;
+    }
+
+    .new-password {
+        font: 500 1rem 'Poppins', sans-serif; 
+    
+        padding: 3rem;
+        margin-left: 10rem;
     }
 }
