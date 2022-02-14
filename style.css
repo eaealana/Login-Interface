@@ -3,80 +3,106 @@
     margin: 0; 
     padding: 0;
     text-decoration: none; 
+    align-items: center;
 }
 
 .container{
-    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2rem;
 }
 
-.container h1 {
-    font: 600 2.2rem 'Roboto', sans-serif;
-    margin-bottom: 3.5rem;
+.main-text {
+    width: 20rem;
+    padding-left: 2px;
 }
 
-.container .text {
+.main-text h1{
+    font: 600 2rem 'Roboto', sans-serif;
+
+    padding: 1rem 5px;
+}
+
+.main-text .text {
     font: 500 1rem 'Roboto', sans-serif;
     color: #2e2c2c;
-    width: 18rem;
-    margin: 2rem 0;
 }
 
-input {
-    display: flex;
-    padding: 0.5rem 1rem;
-    width: 17rem;
+main input {
+    width: 19rem;  
 
-    border-radius: 7px;
-    border-color: #00000069;
-    margin-bottom: 10px;
+    font: 500 0.8rem 'Poppins', sans-serif;
+    padding: 0.8rem 0;
+
+    border-color: #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none
 }
 
 .new-password {
-    display: flex;
-    margin-left: 10rem;
-    padding: 1rem 0;
+    font: 500 1rem 'DM-Sans', sans-serif; 
 
-    color: #0d0dbd;
-    font: 500 14px 'Poppins', sans-serif;
-    letter-spacing: 1px;
+    padding: 3rem;
+    margin-left: 12rem;
 }
 
 button {
-    display: flex;
-    margin: 1rem 0.4rem;
-    padding: 0.5rem 7rem;
+    font: 600 14px 'Poppins', sans-serif;
+    letter-spacing: 2px;
 
-    font: 500 14px 'Poppins', sans-serif;
-    letter-spacing: 1px;
+    width: 18.7rem;
+    padding: 0.5rem 3rem;
     border: none;
     background: #000000;
     color: #FFFFFF;
     border-radius: 5px;
+
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.6s;
 }
 
 button:hover {
     background: #F9F9F9;
     color: #000000;
+    font: 700 14px 'Poppins', sans-serif;
     border: 1px solid #000000;
 }
 
+button:hover::after {
+    transform: scale();
+}
+
 p {
-    font: 600 1.4rem 'Poppins', sans-serif;
-    margin: 3rem 8rem;
+    font: 600 1.1rem 'Poppins', sans-serif;
+    padding: 3rem 0;
 }
 
-.redes-sociais {
-    margin: 2rem 3.4rem;
+.redes-sociais img {
+    padding: 0 0.2rem;
+    transition: all 0.4s;
 }
 
-img {
-    width: 55px;
-    padding: 5px 6px;
+.redes-sociais img:hover {
+    transform: translateY(-10px);
 }
 
 .sing-up {
     font-size: 1rem;
-    margin: 1rem 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+}
+
+
+/* PHONE */
+
+@media (max-width: 600px) {
+    * {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
 }
